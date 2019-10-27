@@ -1,0 +1,23 @@
+.nav {
+    height: 400px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    .item {
+        background-color: #fff;
+        border-radius: 50%;
+        min-width: 60px;
+        height: 60px;
+        line-height: 50px;
+        text-align: center;
+
+    }
+}
+
+.nav:after {
+    content: "";
+    flex: auto;
+}

@@ -1,0 +1,10 @@
+.itemContent{
+    height:75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom:1px solid #ccc;
+}
+.small{
+    font-size: 12px;
+}

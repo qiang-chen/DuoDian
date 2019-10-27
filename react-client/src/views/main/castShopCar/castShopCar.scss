@@ -1,0 +1,157 @@
+.castShopCar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+
+    header {
+        width: 100%;
+        height: auto;
+        .topheader {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            background: #f8f8f8;
+            font-size: 18px;
+            // font-weight: bold;
+        }
+    }
+
+    section {
+        width: 100%;
+        height: 100%;
+        flex: 1;
+        overflow: hidden;
+        overflow: auto;
+        .midCar {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    footer {
+        width: 100%;
+        height: 50px;
+        bottom: 50px;
+        // margin-top:50px;
+
+        .bottomLis {
+            width: 100%;
+            height: 50px;
+            border-top: 1px solid #eee;
+            display: flex;
+            bottom: 0px;
+            align-items: center;
+            text-align: center;
+            background: #fff;
+            .allcheck {
+                width: 25%;
+            }
+            .lastPrice {
+                width: 48%;
+                .castBtn {
+                    width: 30%;
+                    height: 50px;
+                    right: 0px;
+                    bottom: 0;
+                    position: absolute;
+                    background: #ff4036;
+                    border: 0;
+                    outline: none;
+                    color: #fff;
+                    font-size: 16px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+
+    .carList {
+        width: 100%;
+        height: 125px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 13px;
+        position: relative;
+        // bottom: 50px;
+        top:0px;
+    }
+    
+    .checkdSpan {
+        width: 10%;
+        text-align: center;
+    }
+    
+    .articleImg {
+        width: 25%;
+        margin: 2.5px;
+    
+        .img {
+            width: 80px;
+            height: 80px;
+            background: #fff;
+    
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+    .rightMsg {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        .guige {
+            color: #999;
+            font-size: 12px;
+            padding-top: 2.5px;
+        }
+    
+        .artcPrice {
+            display: flex;
+            margin-top: 10px;
+    
+            .newPrice {
+                color: #ff745f;
+                font-size: 16px;
+                font-weight: bold;
+            }
+    
+            .oldPrice {
+                color: #999999;
+                text-decoration: line-through;
+            }
+        }
+    }
+    
+    .addMinus {
+        position: absolute;
+        right: 15px;
+    
+        button {
+            width: 20px;
+            height: 20px;
+            border-radius: 25px;
+            border: 1px solid #ccc;
+            outline: none;
+            margin-left: 2.5px;
+            background: #fff;
+            text-align: center;
+            line-height: 20px;
+        }
+    
+        .buyNum {
+            background: #fff;
+            border: 0;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    
+}

@@ -1,0 +1,100 @@
+.searchPage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.search-div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.search-his{
+    width:90%;
+    margin: 20px auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    .clearSearch{
+        color: #ccc;
+        font-size: 12px;
+    }
+    i{
+        color: #ccc;
+        font-size: 12px;
+    }
+}
+.search-shitu{
+    flex:1;
+    overflow: auto;
+}
+.search-item{
+    width: 100%;
+    height: 125px;
+    border: 1px solid #ccc;
+    margin-top:10px;
+    dl {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-flow: row nowrap;
+        border-bottom: 1px solid #eeeeee;
+        dt {
+            width: 110px;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        dd {
+            flex: 1;
+            font-size: 14px;
+            padding-left: 70px;
+            p {
+                margin-top: 8px;
+            }
+            p:nth-child(1) {
+                font-weight: bolder;
+            }
+            p:nth-child(2) {
+                font-size: 10px;
+                color: #aaaaaa;
+            }
+            p:nth-child(3) {
+                width: 50px;
+                text-align: center;
+                line-height: 20px;
+                color: #fff;
+                font-size: 12px;
+                border-radius: 20px;
+                background: orangered;
+            }
+            div {
+                margin-top: 15px;
+                span:nth-child(1) {
+                    color: orangered;
+                    font-size: 16px;
+                    font-weight: bolder;
+                }
+                s {
+                    font-size: 12px;
+                    color: #aaaaaa;
+                    text-decoration: line-through;
+                    margin-left: 10px;
+                    margin-right: 30px;
+                }
+                span:nth-child(3) {
+                    display: inline-block;
+                    width: 20px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 20px;
+                    height: 20px;
+                    background: #eeeeee;
+                }
+            }
+        }
+    }
+}

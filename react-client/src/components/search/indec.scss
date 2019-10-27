@@ -1,0 +1,47 @@
+.cl-inpbox {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    width: 100%;
+    height: 70%;
+    border-radius: 50px;
+    position: relative;
+    i {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+    input {
+      width: 80%;
+      height: 100%;
+      border: 0;
+      font-size: 12px;
+      border-radius: 50px;
+      padding-left: 30px;
+      border: 1px solid #ccc;
+      float: left;
+    }
+    ul {
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+      li {
+        width: 100%;
+        height: 40px;
+        border-bottom: 1px solid #333;
+        background: #fff;
+        line-height: 40px;
+      }
+    }
+    div {
+      width: 20%;
+      height: 100%;
+      line-height: 35px;
+      text-align: center;
+      float: left;
+    }
+  }
+}

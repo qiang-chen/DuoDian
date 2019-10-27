@@ -1,0 +1,125 @@
+.wrap{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    .header{
+        width:100%;
+        height:45px;
+        h3{
+            text-align: center;
+            line-height: 45px;
+        }
+    }
+    .main{
+        width:100%;
+        flex:1;
+        h3{
+            font-size: 35px;
+            line-height: 100px;
+            padding-left: 35px;
+        }
+        .inputBox{
+            width:80%;
+            height:45px;
+            margin:0 auto;
+            border-bottom: 1px solid #ccc;
+            input{
+                width:100%;
+                height:100%;
+                border:0;
+                outline: 0;
+                // background: none;
+            }
+        }
+        .btnBox{
+            width:80%;
+            height:auto;
+            margin:0 auto;
+            margin-top:50px;
+            button{
+                width:100%;
+                height: 45px;
+                border-radius: 50px;
+                border:0;
+                outline: 0;
+                background:#FD5830;
+            }
+            .code{
+                color:#fff;
+            }
+            .del{
+                margin-top:20px;
+                margin-left: 20px; 
+            }
+        }
+        
+    }
+    .mask{
+        width:100%;
+        height:100%;
+        background:rgba(0, 0, 0, .4);
+        position: fixed;
+        top:0;
+        left: 0;
+        display: none;
+        .codeBox{
+            width: 340px;
+            height: 270px;
+            background:#fff;
+            position: fixed;
+            top:50%;
+            left: 50%;
+            margin-left: -170px;
+            margin-top:-135px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgb(97, 97, 97);
+            p{
+                font-size: 12px;
+            }
+            h3,p,.countaDown{
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            b{
+                position: fixed;
+                top:220px;
+                right: 50px;
+            }
+        }
+        .inputBoxs{
+            width: 100%;
+            height:auto;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            input{
+                width: 40px;
+                height:40px;
+                outline: none;
+                text-align: center;
+                border:1px solid #000;
+            }
+        }
+        .signIn{
+            color:#fff;
+            width:90%;
+            height: 45px;
+            margin:0 auto;
+            margin-top:20px;
+            button{
+                width:100%;
+                height:100%;
+                background:#FD5830;
+                border:0;
+                outline: 0;
+                border-radius: 50px;
+                color:#fff;
+            }
+        }
+    }
+    .showYes{
+        display: block;
+    }
+}

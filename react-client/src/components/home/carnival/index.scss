@@ -1,0 +1,30 @@
+.carnival {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    .icon-carnival {
+        width: 20%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2px;
+        .dt-carnival {
+            flex: 8 1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: url("../../../assets/img/k.png") no-repeat center;
+            background-size: 50px;
+        }
+        .dd-carnival {
+            flex: 2;
+            font-size: 12px;
+            color: #aaa;
+            padding-top: 3px;
+            padding-bottom: 8px;
+        }
+    }
+}

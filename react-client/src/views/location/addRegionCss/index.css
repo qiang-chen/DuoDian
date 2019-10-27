@@ -1,0 +1,103 @@
+.box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main1 {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  line-height: 50px;
+}
+
+.search input {
+  border: none;
+  width: 47%;
+  z-index: 2;
+  position: relative;
+  border-left: 1px solid #000;
+  margin-left: 30px;
+  padding-left: 35px;
+  outline: none;
+}
+
+.search .Icon {
+  position: absolute;
+  top: 26px;
+  left: 98px;
+  color: #333;
+  z-index: 3;
+}
+
+.count {
+  flex: 1;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.p {
+  padding-left: 15px;
+  height: 40px;
+  line-height: 30px;
+  color: red;
+  border-bottom: solid #ccc 5px;
+}
+
+.name {
+  display: flex;
+  margin-top: 5px;
+  background: #fff;
+  align-items: center;
+}
+
+.name input {
+  width: 20%;
+  height: 15px;
+}
+
+.name dl {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+.name dl dt p {
+  line-height: 30px;
+  height: 30px;
+}
+
+.shade {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.shade .son {
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+}
